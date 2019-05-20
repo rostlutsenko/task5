@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task 5</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navigation">
+            <form>
+                <section>
+                    <div class="choose__make">
+                        <h4>Here you can choose Make</h4>
+                        <select class="cars__list" name="cars__list">
+                            <option value="">Choose the Make</option>
+                        </select>
+                    </div>
+                    <div class="choose__model">
+                        <h4>Here you can choose Model</h4>
+                        <select class="model__list" name="model__list">
+                            <option value="">Choose the Model</option>
+                        </select>
+                    </div>
+                    <div class="choose__age">
+                        <h4>Choose Cars older then
+                            <select class="age"></select>
+                        years</h4>
+                    </div>
+                </section>
+                <div class="current">
+                    <div class="current__year">
+                        <h4>Choose year of Manufacture
+                            <select class="year"></select>
+                        </h4>
+                    </div>
+                    <div class="min__price">
+                        <input class="price" type="text" placeholder="Enter minimum price" required>
+                        <a class="button current__button">Accept</a>
+                    </div>
+                </div>
+                <div class="buttons__holder">
+                    <a class="button show__button">Show All</a>
+                </div>
+            </form>
+        </div>
+        <div class="result">
+            <table class="result__table">
+                <tr>
+                    <th>Car id</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Year Of Manufacture</th>
+                    <th>Color</th>
+                    <th>Price</th>
+                    <th>License Plate</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

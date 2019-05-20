@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.button {
+    padding: .5em 1em;    
+    background: #000;
+    border: none;
+    color: #FF9A12;
+    cursor: pointer;
+}
+
+.navigation {
+    width: 25%;
+}
+
+.navigation section,
+.current {
+    padding: .5rem;
+    border: 2px solid #000;
+}
+
+.current {
+    margin: 1rem 0 0 0;
+}
+
+.choose__make,
+.choose__model,
+.choose__age,
+.buttons__holder {
+    padding: 1rem .5rem 0 .5rem;
+}
+
+
+.choose__make h4,
+.choose__model h4,
+.choose__age h4,
+.buttons__holder h4,
+.current h4 {
+    margin: .5rem 0;
+}
+
+.current__year {
+    margin: 0 0 1.5rem 0;
+}
+
+.buttons__holder {
+    margin: 3rem 0 0 0;
+}
+
+.show__button:active {
+    background: rgb(95, 95, 95)
+}
+
+.result {
+    width: 75%;
+}
+
+.result__table {
+    width: 100%;
+}
+
+.result__table th,
+.result__table td {
+    padding: .5em 1em;
+    text-align: center;
+}
+
+.result__table th {
+    background: #000;
+    font-size: 1.25rem;
+    color: #FF9A12;
+}
+
+.car:nth-child(odd) {
+    background: #EBEBEB;
+}
+
+.car:hover {
+    background: rgb(255, 209, 149);
+}
